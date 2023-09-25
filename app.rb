@@ -2,7 +2,6 @@ require "sinatra"
 require "sinatra/reloader"
 
 get("/") do
-  require "http"
 
   erb(:useless_fact)
 end

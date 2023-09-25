@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for patient-voice-8994 on 2023-09-25T02:53:24Z
+# fly.toml app configuration file generated for mini-projectt on 2023-09-25T04:40:55Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = "patient-voice-8994"
+app = "mini-projectt"
 primary_region = "ord"
 
 [build]
