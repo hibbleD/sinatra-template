@@ -1,5 +1,7 @@
 require "sinatra"
 require "sinatra/reloader"
+require "http"
+require "json"
 
 get("/") do
 
@@ -7,8 +9,6 @@ get("/") do
 end
 
 get("/process_fact") do
-  require "http"
-  require "json"
 
   @useless_facts_url = "https://uselessfacts.jsph.pl/api/v2/facts/random"
 
