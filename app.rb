@@ -2,11 +2,12 @@ require "sinatra"
 require "sinatra/reloader"
 
 get("/") do
+  require "http"
 
   erb(:useless_fact)
 end
 
-get ("/process_fact") do
+get("/process_fact") do
   require "http"
   require "json"
 
