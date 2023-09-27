@@ -10,6 +10,8 @@ end
 
 get("/process_fact") do
 
+
+
   @useless_facts_url = "https://uselessfacts.jsph.pl/api/v2/facts/random"
 
   @raw_response = HTTP.get(@useless_facts_url)
